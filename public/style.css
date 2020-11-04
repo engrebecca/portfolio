@@ -5,22 +5,30 @@
 
 .dancing-font{
     font-family: 'Dancing Script', cursive;
-    font-size: 150px;
 }
 
+
 /* Formats background image to fit screen width and repeat */
-.bg-img {
+/* .bg-img {
     background-image: url("https://cdn.pixabay.com/photo/2019/12/15/08/33/blue-4696575_1280.jpg");
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
-/* Formatting for jumbotron */
+/* Formatting for jumbotron text*/
 #jumbotron{
     background-image: url("https://cdn.pixabay.com/photo/2019/12/15/08/33/blue-4696575_1280.jpg");
     background-size: cover;
     background-position: center;
+}
+
+#jumbo-text{
+    font-size: 150px;
+}
+
+#nav-text{
+    font-size: 40px;
 }
 
 /* Sets HTML and body height to 100% */
