@@ -1,42 +1,48 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Link to Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Link to Google Font Playfair -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <!-- Link to CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
     <!-- Link to FontAwesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- jQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
     <title>Portfolio - Rebecca Eng</title>
-  </head>
+</head>
 
-  <body class="d-flex flex-column h-100 bg-img">
+<body class="d-flex flex-column h-100 bg-img">
     <!-- NAV BAR SECTION-->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <!-- Name in nav bar -->
         <a class="navbar-brand text-info playfair-font" href="index.html">Rebecca Eng</a>
         <!-- Toggle button in nav bar -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Nav bar menu links -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="index" href="/">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" id="portfolio" href="/portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" id="contact" href="/contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -54,8 +60,19 @@
                         </div>
                         <!-- About Me body -->
                         <div class="card-body">
-                            <img src="Assets/headshot.jpg" class="img-fluid float-left mr-4 w-50" alt="Rebecca Eng headshot">
-                            <p class="card-text">Hi there! My name is Rebecca Eng. I'm a full stack software engineer based in San Francisco, California. <br> <br> I'm pursuing a certification in full stack web development from UC Berkeley Extension. I have skills in HTML, CSS , JavaScript, and Python with strengths in problem solving and project management. <br> <br> I'm passionate about solving user needs and using technology to create a positive social impact. I’m excited to combine my web development skills with my background in product management to bring a unique perspective on creating products to better serve users. <br><br> If you are a business seeking to build web presence or an employer looking to hire, you can view my <a href="Rebecca SE Resume_10.5.20.pdf" target="_blank" class="text-info">resume</a> and reach me <a href="contact.html" class="text-info">here</a> or at the below links.</p>
+                            <img src="Assets/headshot.jpg" class="img-fluid float-left mr-4 w-50"
+                                alt="Rebecca Eng headshot">
+                            <p class="card-text">Hi there! My name is Rebecca Eng. I'm a full stack software engineer
+                                based in San Francisco, California. <br> <br> I'm pursuing a certification in full stack
+                                web development from UC Berkeley Extension. I have skills in HTML, CSS , JavaScript, and
+                                Python with strengths in problem solving and project management. <br> <br> I'm
+                                passionate about solving user needs and using technology to create a positive social
+                                impact. I’m excited to combine my web development skills with my background in product
+                                management to bring a unique perspective on creating products to better serve users.
+                                <br><br> If you are a business seeking to build web presence or an employer looking to
+                                hire, you can view my <a href="Rebecca SE Resume_10.5.20.pdf" target="_blank"
+                                    class="text-info">resume</a> and reach me <a href="contact.html"
+                                    class="text-info">here</a> or at the below links.</p>
                         </div>
                     </div>
                 </div>
@@ -66,17 +83,38 @@
     <!-- STICKY FOOTER SECTION -->
     <footer class="footer mt-auto py-3 text-center navbar-dark bg-white border-top border-info footer-top">
         <div class="container">
-          <a href="https://www.linkedin.com/in/engrebecca/" target="_blank" class="text-info"><i class="fab fa-linkedin fa-2x mr-3"></i></a>
-          <a href="mailto:reng412@gmail.com" class="text-info"><i class="far fa-envelope fa-2x mr-3"></i></a>
-          <a href="https://github.com/engrebecca" target="_blank" class="text-info"><i class="fab fa-github fa-2x mr-3"></i></a>
+            <a href="https://www.linkedin.com/in/engrebecca/" target="_blank" class="text-info"><i
+                    class="fab fa-linkedin fa-2x mr-3"></i></a>
+            <a href="mailto:reng412@gmail.com" class="text-info"><i class="far fa-envelope fa-2x mr-3"></i></a>
+            <a href="https://github.com/engrebecca" target="_blank" class="text-info"><i
+                    class="fab fa-github fa-2x mr-3"></i></a>
         </div>
     </footer>
 
+</body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
 </html>
+
+<script type="text/javascript">
+
+    // $("#index").on("click", function () {
+    //     $.ajax({ url: "/", method: "GET" })
+    //         .then(function () {
+    //             console.log("Display homepage")
+    //         })
+    // });
+
+    // $("#portfolio").on("click", function () {
+    //     $.ajax({ url: "/portfolio", method: "GET" })
+    //         .then(function () {
+    //             console.log("Display portfolio")
+    //         })
+    // });
+
+    // $("#contact").on("click", function () {
+    //     $.ajax({ url: "/contact", method: "GET" })
+    //         .then(function () {
+    //             console.log("Display contact")
+    //         })
+    // });
+</script>
