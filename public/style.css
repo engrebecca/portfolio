@@ -48,3 +48,10 @@ body {
     background-color: black;
 }
 
+/* Center card for porfolio */
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
