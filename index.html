@@ -16,8 +16,8 @@
     <!-- Link to FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!-- jQuery Script -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Portfolio - Rebecca Eng</title>
 </head>
@@ -61,7 +61,8 @@
         <div class="container mt-5 mb-5">
             <div class="row">
                 <div class="col-sm">
-                    <img src="assets/headshot.jpg" class="img-fluid" alt="Rebecca Eng headshot">
+                    <img src="assets/headshot.jpg" class="img-fluid" alt="Rebecca Eng headshot" data-aos="fade-down"
+                        data-aos-delay="50">
                 </div>
                 <div class="col-sm d-flex">
                     <div class="card p-3" style="width: 40rem;">
@@ -101,30 +102,12 @@
         </div>
     </footer>
 
+    <!-- jQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
-
-<script type="text/javascript">
-
-    // $("#index").on("click", function () {
-    //     $.ajax({ url: "/", method: "GET" })
-    //         .then(function () {
-    //             console.log("Display homepage")
-    //         })
-    // });
-
-    // $("#portfolio").on("click", function () {
-    //     $.ajax({ url: "/portfolio", method: "GET" })
-    //         .then(function () {
-    //             console.log("Display portfolio")
-    //         })
-    // });
-
-    // $("#contact").on("click", function () {
-    //     $.ajax({ url: "/contact", method: "GET" })
-    //         .then(function () {
-    //             console.log("Display contact")
-    //         })
-    // });
-</script>
