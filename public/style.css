@@ -1,12 +1,12 @@
 /* Google fonts */
-.playfair-font {
-    font-family: 'Playfair Display', serif;
+.cormorant-font {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
 }
 
-.dancing-font{
-    font-family: 'Dancing Script', cursive;
+.header-text{
+    font-size: 50px;
 }
-
 
 /* Formats background image to fit screen width and repeat */
 .bg-img {
@@ -17,18 +17,21 @@
 }
 
 /* Formatting for jumbotron text*/
-#jumbotron{
-    background-image: url("https://cdn.pixabay.com/photo/2019/12/15/08/33/blue-4696575_1280.jpg");
-    background-size: cover;
-    background-position: center;
+.bg-white{
+    background-color: white;
 }
 
 #jumbo-text{
-    font-size: 150px;
+    font-size: 100px;
 }
 
 #nav-text{
-    font-size: 40px;
+    font-size: 35px;
+}
+/* Nav black bottom border */
+.nav-border {
+    border-bottom-width: 8px !important;
+    color: black;
 }
 
 /* Sets HTML and body height to 100% */
@@ -49,10 +52,7 @@ body {
 
 /* Footer property for sticky footer */
 .footer {
-    flex-shrink: 0
+    flex-shrink: 0;
+    background-color: black;
 }
 
-/* Add turquoise top border to footer */
-.footer-top {
-    border-top-width: 8px !important;
-}
