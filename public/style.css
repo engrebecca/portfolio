@@ -8,6 +8,10 @@
     font-size: 50px;
 }
 
+.sub-text{
+    font-size: 30px;
+}
+
 /* Formatting for jumbotron text*/
 .bg-white{
     background-color: white;
