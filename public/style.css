@@ -59,3 +59,10 @@ body {
     margin-bottom: 10px;
 }
 
+/* Background jumbotron */
+.bg-img {
+    background-image: url("assets/concrete.jpg");
+    /* background-repeat: repeat; */
+    background-size: cover;
+    background-position: center;
+}
