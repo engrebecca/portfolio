@@ -66,3 +66,8 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+/* To keep menu open when using navbar toggler */
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
